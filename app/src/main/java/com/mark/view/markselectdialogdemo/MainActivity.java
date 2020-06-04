@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
     //这些是假数据，真实项目中直接接口获取添加进来，FiltrateBean对象可根据自己需求更改
     private void initParam() {
-        String[] colors = {"全部分类", "送货服务", "维修服务", "拆装服务"};
-        String[] company = {"全部分类", "已接单", "已签到", "待审核", "转单中"};
+        String[] colors = {"全部分类", "送货服务", "维修服务", "拆装服务","维修服务", "拆装服务","维修服务", "拆装服务"};
+        String[] company = {"全部分类", "已接单", "已签到", "待审核", "转单中","已签到", "待审核", "转单中"};
 
         MarkSelectBean fb2 = new MarkSelectBean();
         fb2.setTypeName("选择分类");
